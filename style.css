@@ -623,7 +623,7 @@ header {
   top: 0;
   z-index: -1;
   width: 100%;
-  height: 100%;
+  height: 160%;
 }
 
 .hero-bg img {
@@ -665,7 +665,7 @@ header {
   top: 353px;
 }
 .hero-image-left {
-  top: 146px;
+  top: 135px;
   left: 55px;
   position: absolute;
   z-index: -1;
@@ -779,7 +779,7 @@ header {
   );
   border: 1px solid #c2ccf61f;
   border-radius: 16px;
-  padding: 0 24px 2px 24px;
+  padding: 0 24px 27px 24px;
   position: relative;
   z-index: 2;
   overflow: hidden;
@@ -850,7 +850,7 @@ header {
   max-width: 237px;
 }
 .j-work-big-info span {
-  margin-top: 50px;
+  margin-top: 25px;
   display: block;
   font-weight: 400;
   font-size: 16px;
@@ -893,11 +893,11 @@ header {
   z-index: 4;
 }
 .reviews-bg {
- position: absolute;
-    right: 0;
-    top: -100px;
-    max-width: 600px;
-    z-index: -1;
+  position: absolute;
+  right: 0;
+  top: -100px;
+  max-width: 600px;
+  z-index: -1;
 }
 
 .j-reviews-swiper {
@@ -1373,7 +1373,7 @@ header {
     width: 100%;
     height: 100%;
     backdrop-filter: blur(10px);
-    --webkit-filter: blur(16px);
+    -webkit-backdrop-filter: blur(10px);
     position: fixed;
     left: 0;
     top: -100%;
@@ -1416,6 +1416,9 @@ header {
     top: unset;
     bottom: 10px;
     left: 10px;
+  }
+  .hero-bg {
+    height: 100%;
   }
 }
 
@@ -1670,8 +1673,7 @@ header {
   .j-hero-pagination .swiper-pagination-bullet-active {
     width: 15px !important;
     border-radius: 8px;
-            opacity: 1 !important;
-
+    opacity: 1 !important;
   }
   .j-hero-mobile-icon {
     max-width: 144px;
@@ -1679,13 +1681,18 @@ header {
     top: -15px;
     z-index: 2;
     right: 15px;
+    backdrop-filter: blur(21px);
+    -webkit-backdrop-filter: blur(21px);
+    border-radius: 6px;
+    overflow: hidden;
+
   }
   .hero-card-plus-mobile {
     position: absolute;
     top: 173px;
     right: 15px;
     backdrop-filter: blur(22px);
-    --webkit-filter: blur(16px);
+    -webkit-backdrop-filter: blur(22px);
     z-index: 2;
     border-radius: 9px;
     max-width: 67px;
@@ -1746,7 +1753,7 @@ header {
   }
   .j-work-big-item {
     min-height: 468px;
-    padding: 24px 24px 19px 24px;
+    padding: 24px 24px 29px 24px;
   }
   .j-work-big-info .block-text {
     font-size: 18px;
@@ -1759,6 +1766,7 @@ header {
   }
   .j-work-big-info span {
     opacity: 0.6;
+    margin-top: 40px;
   }
   .j-work-small-item span {
     opacity: 0.6;
@@ -1766,8 +1774,7 @@ header {
   .reviews-bg {
     top: 100px;
     max-width: 200px;
-
-}
+  }
 }
 
 @media (max-width: 500px) {
